@@ -67,9 +67,8 @@ Change Log:
 		}, config.resizer);
 
 		config = Object.assign({
-			width: '100%',
+			width: 'auto',
 			height: 'auto',
-			min-width: 'auto',
 			id: 'ecf-' + new Date().getTime(),
 			spinner: true,
 			animation: 'animate__fadeIn',
