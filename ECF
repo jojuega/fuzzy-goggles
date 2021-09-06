@@ -67,8 +67,7 @@ Change Log:
 		}, config.resizer);
 
 		config = Object.assign({
-			width: '100%',
-      min-width: '100px',
+			width: 'auto',
 			height: 'auto',
 			id: 'ecf-' + new Date().getTime(),
 			spinner: true,
