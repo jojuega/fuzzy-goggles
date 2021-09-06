@@ -69,6 +69,7 @@ Change Log:
 		config = Object.assign({
 			width: 'auto',
 			height: 'auto',
+			align: 'center',
 			id: 'ecf-' + new Date().getTime(),
 			spinner: true,
 			animation: 'animate__fadeIn',
